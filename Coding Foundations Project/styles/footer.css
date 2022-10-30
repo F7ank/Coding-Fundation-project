@@ -1,0 +1,23 @@
+.footer-wrapper {
+    height: 100px;
+    background-color: black;
+    
+}
+.footer-wrapper > .item-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #3f454b;
+    }
+
+
+.footer-wrapper > .item-wrapper >.item {
+    padding: 10px 86px;
+    background-color:#3f454b ;
+    border: solid 1px gray;
+    color: beige;
+    
+    
+    
+}

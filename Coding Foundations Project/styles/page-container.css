@@ -1,0 +1,60 @@
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(4,4,4);
+    background: -moz-linear-gradient(90deg, rgba(4,4,4,0.9360119047619048) 0%, rgba(51,54,57,0.7399334733893557) 97%);
+    background: -webkit-linear-gradient(90deg, rgba(4,4,4,0.9360119047619048) 0%, rgba(51,54,57,0.7399334733893557) 97%);
+    background: linear-gradient(90deg, rgba(4,4,4,0.9360119047619048) 0%, rgba(51,54,57,0.7399334733893557) 97%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#040404",endColorstr="#333639",GradientType=1);
+}
+
+.page-container > .page-container-texts {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    font-size: 2em;
+    color: #d2cfc7 ;
+}
+.page-container > .page-container-texts > .text-one span{
+    font-weight: bolder;
+}
+.page-container > .page-container-texts > .buttons {
+    display: flex;
+    padding: 20px 100px;
+    justify-content:center;
+    width: 400px;
+    font-size: 2em;
+    
+}
+.page-container > .page-container-texts > .buttons > .button {
+    background-color: #4ec97c;
+    padding: 20px 40px;
+    border-radius: 5px;
+    border-color: #3f454b;
+    margin-right: 20px;
+    
+    
+}
+.page-container > .page-container-texts > .buttons > .button-right{
+    background-color: black;
+    padding: 20px 40px;
+    border-radius: 5px;
+    border-color: #3f454b;
+    color: white;
+    margin-left: 20px;
+    
+}
+.page-container > .page-container-imagen {
+    padding-left: 40px;
+}
+.page-container > .page-container-imagen > .img-header{
+    color:white
+}
+.page-container > .page-container-imagen > .img-header span{
+    color:  #4b7bac ;
+}
+.page-container > .page-container-imagen img {
+    width: 100%;
+}

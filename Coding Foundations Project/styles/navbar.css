@@ -1,0 +1,63 @@
+.navbar-wrapper{
+    background-color:  #040404 ;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navbar-wrapper > .logo{
+    margin: 10px;
+    padding: 10px;
+}
+.navbar-wrapper > .logo img{
+    width: 200px;
+    height: 40px;
+    
+}
+.navbar-wrapper > .nav-menu{
+    
+    width: 400px;
+    padding: 0px 60px;
+}
+.navbar-wrapper > .nav-menu >.explore {
+    color: #bc934b ;
+    font-size: 0.9em;
+    
+}
+.navbar-wrapper > .nav-menu >.tabs {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-wrapper > .left-buttoms {
+    display: flex;
+    padding: 0px 100px;
+    justify-content: space-between;
+    width: 400px;
+    color:  #e5e5e4 ;
+}
+.navbar-wrapper > .left-buttoms > .buttom {
+    background-color:  #3f454b;
+    height: 20px;
+    font-size: 1.25em;
+    padding: 10px 20px;
+    border: 1px solid #040404;
+    border-radius: 2px;
+    outline: none;
+    transition: all 0.3s;
+
+}
+.navbar-wrapper > .left-buttoms > .buttom span{
+    color: #4ec97c;
+}
+/* .navbar-wrapper > .left-buttoms > .buttom{
+    box-shadow: 5px 5px 30px rgba(240, 236, 236, 0.4); */
+
+
+.navbar-wrapper > .left-buttoms > .buttom-search {
+    font-size: 1.6em;
+}
+
+
